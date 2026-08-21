@@ -1,0 +1,161 @@
+body
+{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+
+.header,.hero,.footer
+{
+    background-color:#1F2937;
+    font-family:Roboto,sans-serif;
+    display:flex;
+    align-items:center;
+}
+
+/* HEADER CSS */
+
+.header
+{
+    padding:8px;
+    color:#F9FAF8;
+    justify-content:space-around;
+}
+.header p , .header ul
+{
+    padding:0;
+    margin:0;
+}
+
+.header p
+{
+    font-size:24px
+
+}
+
+.header ul{
+    list-style-type:none;
+    text-decoration:none;
+    display:flex;
+    gap:12px;
+}
+
+/* HEADER CSS ENDS HERE */
+
+/* HERO STARTS HERE */
+
+.hero{
+    padding:24px;
+}
+
+
+.hero-main-text
+{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:900;
+}
+
+.hero-secondary-text
+{
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+button
+{
+    background-color:#3882F6;
+}
+
+/*HERO ENDS HERE */
+
+/*  INFORMATION SECTION */
+
+
+.information-heading
+{
+    display:flex;
+    justify-content:center;
+    font-size:36px;
+    color: #1f2937;
+    font-weight:900;
+}
+
+.info-content
+{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+}
+/* INFORMATION SECTION ENDS HERE */
+
+
+/*  QUOTE SECTION    */
+
+.quote
+{
+    background-color: #e5e7eb;
+    display:flex;
+    flex-flow:column;
+}
+.quote-text
+{
+    font-size:36px;
+    color:#1f2937;
+    font-weight:300;
+    font-style:italic;
+    margin:0;
+    border:0;
+}
+
+.quote-author
+{
+    font-weight:900;
+    display:flex;
+    justify-content:center;
+
+}
+
+/* QUOTE SECTION ENDS HERE */
+
+/* CALL TO ACTION SECTION HERE */
+
+.call-to-action
+{
+    display:flex;
+    color:#F9FAF8;
+    background-color:#3882F6;
+    justify-content:center;
+    align-items:center;
+}
+
+#head
+{
+    padding:0;
+    margin:0;
+    font-size:28px;
+}
+
+#member
+{
+    padding:0;
+    margin:0;
+}
+
+.cta-right button
+{
+    border-color:#e5e7eb;
+    background-color:#3882F6;
+    color:#F9FAF8;
+}
+
+/* CALL TO ACTION ENDS */
+
+
+.footer{
+    display:flex;
+    justify-content:center;
+    padding:24px;
+    color:#e5e7eb;
+}
